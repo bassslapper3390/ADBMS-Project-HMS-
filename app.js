@@ -3,7 +3,7 @@ const mysql = require('mysql');
 const app = express();
 const port = 5500;
 app.use(express.static('./public'));
-// MySQL connection
+// MySQL connection successfully addes 
 
 const connection = mysql.createConnection({
   host: 'localhost',
